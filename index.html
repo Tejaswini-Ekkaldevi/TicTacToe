@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Tic Tac Toe
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class = "container">
+            <h1 id="h1">TIC TOC TOE</h1>
+            <center>
+            <!--<button type="button" id="btn1">Start Game</button> &nbsp; &nbsp;-->
+            <button type="button" id="btn2" onclick="reset() && Gameboard(this)">Restart Game</button>&nbsp; &nbsp;
+            <button type="button" id="btn" onclick="reset()">Reset</button>
+
+        </center>
+
+            <br><br>
+        </div>
+        <div class = "div">
+
+        <div id="div1" onclick="Gameboard(this)"></div>
+        <div id="div2" onclick="Gameboard(this)"></div>
+        <div id="div3" onclick="Gameboard(this)"></div>
+        <div id="div4" onclick="Gameboard(this)"></div>
+        <div id="div5" onclick="Gameboard(this)"></div>
+        <div id="div6" onclick="Gameboard(this)"></div>
+        <div id="div7" onclick="Gameboard(this)"></div>
+        <div id="div8" onclick="Gameboard(this)"></div>
+        <div id="div9" onclick="Gameboard(this)"></div>
+
+        </div> 
+    
+        <script src="ticTacToe.js"> </script>
+    </body>
+</html>
